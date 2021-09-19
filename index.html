@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shuffle and Sort</title>
+		<meta charset="UTF-8" />
+		<link type="text/css" rel="stylesheet" href="./index.css" />
+
+		<script src="./shuffle_sort.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Shuffle and Sort</h1>
+				<div class="line"></div>
+			</header>
+
+			<aside>
+				<button
+					id="shuffleBtn"
+					type="button"
+					onclick="shuffleAndSortObj.shuffle()"
+					class="btn blue active"
+				>
+					Shuffle
+				</button>
+				<button
+					type="button"
+					id="sortBtn"
+					onclick="shuffleAndSortObj.sort()"
+					class="btn blue"
+				>
+					Sort
+				</button>
+			</aside>
+
+			<section>
+				<article>
+					<ul id="shuffle"></ul>
+				</article>
+			</section>
+
+			<footer>
+				<p>Shuffle and Sort by Manish</p>
+			</footer>
+		</div>
+	</body>
+</html>
